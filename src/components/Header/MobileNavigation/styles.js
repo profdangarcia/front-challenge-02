@@ -11,7 +11,7 @@ export const Container = styled.div`
   border-radius: 4px;
 
   opacity: ${props => props.show ? 1: 0};
-  top: ${props => props.show ? '120px': '-400px'};
+  top: ${props => props.show ? '85px': '-400px'};
   transition: opacity 0.5s ease;
 `;
 
