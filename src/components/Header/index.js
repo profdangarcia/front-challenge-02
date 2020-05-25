@@ -4,8 +4,8 @@ import { MdClose } from 'react-icons/md';
 
 import { Container, Content, NavList, NavItem } from './styles';
 import logo from '../../assets/logo.svg';
-import Wrapper from '../Wrapper';
-import RequestButton from '../RequestButton';
+import Wrapper from '../shared/Wrapper';
+import RequestButton from '../shared/RequestButton';
 import MobileNavigation from './MobileNavigation';
 
 function Header() {
