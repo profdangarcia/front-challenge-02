@@ -13,6 +13,7 @@ export default createGlobalStyle`
     height: 100vh;
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
+    background: #ccc;
   }
 
   #root {
