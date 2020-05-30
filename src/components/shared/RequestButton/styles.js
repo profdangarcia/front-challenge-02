@@ -6,7 +6,7 @@ export const Container = styled.button`
   font-weight: bold;
   text-align: center;
   border-radius: 500px;
-  padding: 10px 0;
+  padding: 12px 0;
   border: none;
   background: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
 

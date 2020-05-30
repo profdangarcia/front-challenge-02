@@ -9,6 +9,7 @@ export const Container = styled.div`
   width: 300px;
   padding: 20px 0 35px;
   border-radius: 4px;
+  z-index: 20;
 
   opacity: ${props => props.show ? 1: 0};
   top: ${props => props.show ? '85px': '-400px'};

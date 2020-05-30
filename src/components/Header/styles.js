@@ -19,14 +19,12 @@ export const Content = styled.div`
   .bars-icon {
     opacity: ${props => props.show ? 0: 1};
     position: ${props => props.show ? 'absolute': 'relative'};
-    top: -400;
     transition: opacity 0.5s ease-in-out;
   }
 
   .close-icon {
     opacity: ${props => props.show ? 1: 0 };
     position: ${props => props.show ? 'relative': 'absolute'};
-    top: -400;
     transition: opacity 0.5s ease-in-out;
     transition: position 0.5s ease-in-out;
   }
@@ -45,7 +43,6 @@ export const Content = styled.div`
   }
 
   @media screen and (min-width: 1024px){
-    /* justify-content: flex-start; */
 
     .request-button-box {
       display: block;
