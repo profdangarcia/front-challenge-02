@@ -32,10 +32,6 @@ export const Content = styled.div`
   .menu-button{
     background: none;
     border: none;
-
-    @media screen and (min-width: 1024px){
-      display: none;
-    }
   }
 
   .request-button-box {
@@ -43,7 +39,9 @@ export const Content = styled.div`
   }
 
   @media screen and (min-width: 1024px){
-
+    .menu-button {
+      display: none;
+    }
     .request-button-box {
       display: block;
     }

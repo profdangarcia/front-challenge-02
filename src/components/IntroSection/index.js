@@ -1,12 +1,13 @@
 import React from 'react';
 
-import { Container, Content, ImageBox, InfoBox} from './styles';
+import { Container, Content, ImageBox, InfoBox, Other} from './styles';
 import imageMockups from '../../assets/image-mockups.png';
 import Wrapper from '../shared/Wrapper';
 import RequestButton from '../shared/RequestButton';
 
 function IntroSection() {
   return (
+    <>
     <Container>
       <Content>
         <ImageBox>
@@ -28,6 +29,8 @@ function IntroSection() {
         </InfoBox>
       </Content>
     </Container>
+    <Other />
+    </>
   );
 }
 

@@ -10,7 +10,7 @@ export default createGlobalStyle`
   }
 
   body {
-    height: 100vh;
+    height: 100%;
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     background: #ccc;
@@ -18,6 +18,7 @@ export default createGlobalStyle`
 
   #root {
     height: 100%;
+    overflow: hidden;
   }
 
   button {

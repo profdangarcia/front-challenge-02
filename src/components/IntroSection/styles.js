@@ -14,7 +14,7 @@ export const Content = styled.div`
 
   @media screen and (min-width: 1024px){
     flex-direction: row;
-    height: 485px;
+    height: 85vh;
   }
 `;
 
@@ -31,17 +31,29 @@ export const ImageBox = styled.div`
     margin-top: -132px;
     max-width: 500px;
   }
-  
+
   @media screen and (min-width: 1024px){
+    position: relative;
     order: 2;
     height: 100%;
+    width: 100%;
     background: url(${desktopBg}) no-repeat;
     background-position: 26px -249px;
     overflow: visible;
     .mockup-image{
       width: 100%;
       height: auto;
-      max-width: 600px;
+      max-width: 750px;
+      clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0% 100%);
+      position: absolute;
+      right: -130px;
+      top: -16px;
+    }
+  }
+
+  @media screen and (min-width: 1326px){
+    .mockup-image{
+      top:-51px;
     }
   }
 `;
@@ -93,4 +105,11 @@ export const InfoBox = styled.div`
       line-height: 26px;
     }
   }
+`;
+
+export const Other = styled.div`
+  width: 100vw;
+  height: 500px;
+  background: #fff;
+
 `;
