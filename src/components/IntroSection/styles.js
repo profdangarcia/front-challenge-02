@@ -19,6 +19,7 @@ export const Content = styled.div`
   @media screen and (min-width: 1024px){
     flex-direction: row;
     height: 85vh;
+    max-height: 600px;
   }
 `;
 
