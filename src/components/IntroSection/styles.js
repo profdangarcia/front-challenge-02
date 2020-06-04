@@ -5,6 +5,10 @@ import desktopBg from '../../assets/bg-intro-desktop.svg';
 export const Container = styled.div`
   background: #fff;
   width: 100%;
+
+  @media screen and (min-width: 1024px){
+    background: #fafafa;
+  }
 `;
 
 export const Content = styled.div`
