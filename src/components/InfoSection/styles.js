@@ -6,5 +6,18 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  padding-top: 70px;
+  padding: 60px 0;
+`;
+
+export const InfoItemsBox = styled.div`
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 1024px){
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
 `;

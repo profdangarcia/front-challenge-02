@@ -1,47 +1,39 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
 
   @media screen and (min-width: 1024px){
+    justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 `;
 
-export const Title = styled.h2`
+export const InfoImage = styled.img``;
+
+export const InfoTitle = styled.h3`
   color: #444;
   font-weight: 300;
-  font-size: 32px;
-  line-height: 36px;
-  text-align: center;
-  margin-bottom: 20px;
-
-  @media screen and (min-width: 1024px){
-    text-align: left;
-    font-size: 36px;
-    line-height: 40px;
-  }
+  margin: 20px 0 10px;
 `;
 
-export const SubTitle = styled.h3`
+export const InfoText = styled.p`
   color: #666;
   opacity: 0.9;
   font-size: 14px;
   line-height: 23px;
   font-weight: 400;
   text-align: center;
+  max-width: 380px;
 
   @media screen and (min-width: 1024px){
     text-align: left;
-    max-width: 600px;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 16px;
   }
 `;
-
