@@ -68,7 +68,7 @@ export const InfoBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 50px;
@@ -94,7 +94,7 @@ export const InfoBox = styled.div`
   @media screen and (min-width: 1024px){
     height: 100%;
     width: 60%;
-    padding: 0 0 0 140px;
+    padding: 0 0 0 20px;
     justify-content: center;
     align-items: flex-start;
     text-align: left;
@@ -110,11 +110,12 @@ export const InfoBox = styled.div`
       line-height: 26px;
     }
   }
-`;
 
-export const Other = styled.div`
-  width: 100vw;
-  height: 500px;
-  background: #fff;
+  @media screen and (min-width: 1366px){
+    padding: 0 0 0 110px;
+  }
 
+  @media screen and (min-width: 1440px){
+    padding: 0 0 0 140px;
+  }
 `;
