@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import IntroSection from '../../components/IntroSection';
 import InfoSection from '../../components/InfoSection';
 import BlogSection from '../../components/BlogSection';
+import Footer from '../../components/Footer';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <IntroSection />
       <InfoSection />
       <BlogSection />
+      <Footer />
     </>
   );
 }

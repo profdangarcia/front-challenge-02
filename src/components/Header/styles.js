@@ -86,6 +86,4 @@ export const NavItem = styled.li`
     }
 
   }
-
-  
 `;
