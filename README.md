@@ -2,7 +2,7 @@
 
 Second Front-end challenge from [Front-end Menthor](https://www.frontendmentor.io/)
 
-[Demo](https://front-challenge-02.now.sh/)  (in progress)
+[Demo](https://front-challenge-02.now.sh/)
 
 ## Tools
 
