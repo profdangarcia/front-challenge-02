@@ -9,12 +9,24 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   padding: 25px 0;
+
+  @media screen and (min-width: 1024px){
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+  }
 `;
 
 export const SocialMediaBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (min-width: 1024px){
+    align-items: flex-start;
+    width: 50%;
+  }
 `;
 
 export const IconsBox = styled.div`
@@ -27,21 +39,20 @@ export const IconsBox = styled.div`
   & a:last-child{
     margin-right:0;
   }
+
+  @media screen and (min-width: 1024px){
+    justify-content: flex-start;
+    margin: 50px 0 0;
+  }
 `;
 
 export const SocialMediaLink = styled.a`
   margin-right: 15px;
   text-decoration: none;
   cursor: pointer;
-  &:hover{
-    svg{
-      color: red;
-    }
-  }
 `;
 
 export const SocialMediaIcon = styled.img`
-  color: red;
 `;
 
 export const LinksBox = styled.div`
@@ -49,6 +60,12 @@ export const LinksBox = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (min-width: 1024px){
+    height: 110px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 `;
 
 export const LinkItem = styled.a`
@@ -60,6 +77,10 @@ export const LinkItem = styled.a`
 
   &:hover{
     color: hsl(136, 65%, 51%);
+  }
+
+  @media screen and (min-width: 1024px){
+    font-size: 16px;
   }
 `;
 
@@ -76,5 +97,10 @@ export const InviteBox = styled.div`
     font-size: 12px;
     color: hsl(233, 8%, 62%);
     opacity: 0.9;
+  }
+
+  @media screen and (min-width: 1024px){
+    margin-top: 0;
+    align-items: flex-end;
   }
 `;
